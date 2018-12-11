@@ -19,7 +19,8 @@ h6 {
 }
 
 a:visited { 
-  text-decoration: none; color: #000000;
+  text-decoration: none;
+  color: #000000;
   }
 
 p {
@@ -39,10 +40,15 @@ ol {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*------------------
   Header section
 ---------------------*/
 header a {
+  color: #000000;
   text-decoration: none;
   font-size: 17px;
   font-weight: 600;
@@ -129,9 +135,11 @@ header a {
 
 .container {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  grid-template-columns: minmax(200px, 1fr);
   grid-template-rows: 400px 1fr;
-  grid-auto-rows: 200px;
   line-height: 1.69;
 }
 
@@ -146,25 +154,26 @@ header a {
 }
 
 .university-logo {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .contacts {
   grid-column: 2 / -1;
   height: auto;
-  width: 20%;
+  padding-left: 50px;
+  width: 221px;
   opacity: 0.5;
 }
 
 .showcase {
   height: 378px;
   padding-left: 120px;
+  padding-right: 30px;
   background-color: #fafafa;
   grid-column: 1 / 2;
 }
 
 .university-navigation {
-  padding-top: 1em;
   list-style: none;
   display: flex;
 }
@@ -181,7 +190,6 @@ header a {
   grid-row: 2 / -1;
   grid-column: 1 / 2;
   margin-left: 120px;
-  width: 684px;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
