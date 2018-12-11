@@ -159,8 +159,8 @@ header a {
 
 .contacts {
   grid-column: 2 / -1;
-  height: auto;
-  padding-left: 50px;
+  height: 135px;
+  margin-left: 40%;
   width: 221px;
   opacity: 0.5;
 }
