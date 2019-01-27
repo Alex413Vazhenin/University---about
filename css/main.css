@@ -173,11 +173,11 @@ header a {
   grid-column: 1 / 2;
 }
 
-.university-navigation {
+.tabs {
   list-style: none;
   display: flex;
 }
-.university-navigation li {
+.tabs li {
   padding: 0.5rem 1rem 0 1rem;
 }
 
@@ -186,7 +186,10 @@ header a {
   grid-column: 2 / -1;
 }
 
-.university-description {
+/*------------------
+  Tabs - university description tab
+---------------------*/
+#university-description {
   grid-row: 2 / -1;
   grid-column: 1 / 2;
   margin-left: 120px;
@@ -197,7 +200,7 @@ header a {
   letter-spacing: normal;
 }*
 
-.university-description h3{
+#university-description h3{
   height: 27px;
   opacity: 0.4;
   font-size: 16px;
@@ -206,4 +209,8 @@ header a {
   font-stretch: normal;
   line-height: 1.69;
   letter-spacing: normal;
+}
+
+.tab-entry {
+  display: grid;
 }

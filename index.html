@@ -5,10 +5,15 @@
       <title>Noosphere | University about</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Bootstrap CSS File -->
+      <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
       <!-- Stylesheets -->
       <link rel="stylesheet" href="css/main.css">
 
 </head>
+
 <body>
       <!-- Header section -->
       <header class="header-section">
@@ -38,23 +43,25 @@
       
       <!-- University header -->
       <div class="container">
-        <div class="top-container">
+        <div class="tofp-container">
           <header class="showcase">
             <div class="university-logo">
               <img src="img/lse_logo.png" alt="University logo" height="56" width="57">
               </div>
               <h3>London School of Economics and Political Science (LSE)</h3>
-            <ul class="university-navigation">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Programs</a></li>
-              <li><a href="#">Courses</a></li>
+            <ul class="tabs">
+              <li class="active" data-id="university-description"><a href="#">About</a></li>
+              <li data-id="tab-programs"><a href="#">Programs</a></li>
+              <li data-id="tab-courses"><a href="#">Courses</a></li>
             </ul>         
           </header>
         </div>
         <img class="university-picture" src="img/university-picture.png" alt="University picture">
       <!-- University header end -->
 
-        <div class="university-description">
+      <!-- University tab content - description -->
+        <div id="university-description" class="tab-content">
+          <div class="tab-entry">
         <h3>Legal structure</h3>
         <p>The London School of Economics and Political Science holds the dual status of a private company limited by guarantee and an exempt charity. It is regulated by the Higher Education Funding Council for England (HEFCE).
         The legal governance structure of the School is laid down in its Memorandum and Articles of Association [PDF] 
@@ -72,6 +79,7 @@
         <h3>School Management Committee (SMC)</h3>
         <p>The School’s decision-making body for management and operational issues, the SMC provides recommendations on strategic decision-making to Council and its committees. It includes the Director, School Secretary and the other senior managers in the School. 
         Find out more about the School Management Committee</p>
+          </div>
         </div>
 
         <div class="contacts">
@@ -85,6 +93,175 @@
         </div>
 
     </div>
+
+  <!-- tab content - programs -->
+      <div id="tab-programs" class="tab-content">
+
+        <div class="tab-entry">
+
+          <h3>MSc City Design and Social Science</h3>
+
+          <p>The MSc City Design and Social Science focuses on the relations between the physical and social organisation of cities and urban environments.</p>
+
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+          <h3>MSc Economics and Management</h3>
+
+          <p>The MSc Economics and Management programme is a specialist multidisciplinary degree delivered jointly by the Department of Management and the Department of Economics - one of the largest and most esteemed Economics departments in the world, renowned for its research and contributions to the development of the subject area.</p>
+
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+
+          <h3>MSc Economics and Philosophy</h3>
+
+          <p>The MSc Economics and Philosophy offers a unique combination of rigorous training in economics together with the opportunity to engage with moral, methodological and foundational questions. </p>
+
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+
+          <h3>MSc Finance and Economics</h3>
+
+          <p>The MSc Finance and Economics draws on the School&apos;s strengths in economics, finance and econometrics to impart a rigorous and deep understanding of financial markets, grounded in financial economics and econometric methods. </p>
+
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+
+  <!-- tab content - courses -->
+      <div id="tab-courses" class="tab-content">
+
+        <div class="tab-entry">
+
+          <h3>MSc City Design and Social Science</h3>
+
+          <p>The MSc City Design and Social Science focuses on the relations between the physical and social organisation of cities and urban environments.</p>
+                   
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+
+          <h3>MSc Economics and Management</h3>
+
+          <p>The MSc Economics and Management programme is a specialist multidisciplinary degree delivered jointly by the Department of Management and the Department of Economics - one of the largest and most esteemed Economics departments in the world, renowned for its research and contributions to the development of the subject area.</p>
+          
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+          
+          <h3>MSc Economics and Philosophy</h3>
+
+          <p>The MSc Economics and Philosophy offers a unique combination of rigorous training in economics together with the opportunity to engage with moral, methodological and foundational questions. </p>
+
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+
+          <h3>MSc Finance and Economics</h3>
+
+          <p>The MSc Finance and Economics draws on the School&apos;s strengths in economics, finance and econometrics to impart a rigorous and deep understanding of financial markets, grounded in financial economics and econometric methods. </p>
+
+          <div class="row-wrap">
+            <h5>Level</h5>
+            <p>MSc</p>
+            <h5>Study-Type</h5>
+            <p>Full-time</p>
+            <h5>Study Duration</h5>
+            <p>3 years, 2 months</p>
+            <h5>Tuition Fee</h5>
+            <p>£20,000</p>
+            <h5>International Students</h5>
+            <p>£20,000<p>
+
+            <a href="#" class="btn">Compare</a>
+          </div>
+
+     <!-- Java Script Libraries
+   ================================================== --> 
+  <script src="libs/jquery.min.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
    </body>
 </html>
