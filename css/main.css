@@ -171,7 +171,12 @@ header a {
   background-color: #fafafa;
 }
 
+.showcase h3 {
+  font-size: 40px;
+}
+
 .tabs {
+  padding-top: 30px;
   list-style: none;
   display: flex;
 }
@@ -188,6 +193,7 @@ header a {
   Tabs - university description tab
 ---------------------*/
 #university-description {
+  margin-top: 72px;
   grid-column: 1 / 2;
   font-size: 16px;
   font-weight: normal;
@@ -197,6 +203,7 @@ header a {
 }*
 
 #university-description h3{
+  margin-top: 12px;
   height: 27px;
   opacity: 0.4;
   font-size: 16px;
@@ -219,6 +226,7 @@ header a {
 .row-wrap h3 {
   font-size: 27px;
   line-height: 1.11;
+  margin-bottom: 18px;
 }
 
 .row-wrap p {
