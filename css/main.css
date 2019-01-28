@@ -139,7 +139,6 @@ header a {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: minmax(200px, 1fr);
-  grid-template-rows: 400px 1fr;
   line-height: 1.69;
 }
 
@@ -170,7 +169,6 @@ header a {
   padding-left: 120px;
   padding-right: 30px;
   background-color: #fafafa;
-  grid-column: 1 / 2;
 }
 
 .tabs {
@@ -190,7 +188,6 @@ header a {
   Tabs - university description tab
 ---------------------*/
 #university-description {
-  grid-row: 2 / -1;
   grid-column: 1 / 2;
   font-size: 16px;
   font-weight: normal;
@@ -216,7 +213,7 @@ header a {
 }
 
 .row-wrap {
-  grid-column: 1 / 2;
+  grid-template-columns: 8fr 2fr;
 }
 .row-wrap h3 {
   font-size: 27px;
@@ -229,6 +226,16 @@ header a {
   opacity: 0.5;
 }
 
+#tab-programs {
+  display: grid;
+  grid-column: auto / span 2;
+}
 .compare {
-  grid-column: 2 / -1;
+  grid-column: 2 / span 1;
+  margin-left: 160px;
+}
+
+#tab-courses {
+  display: grid;
+  grid-column: auto / span 2;
 }
