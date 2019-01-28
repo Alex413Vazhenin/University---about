@@ -11,3 +11,4 @@
 	   var activeTab = $(this).attr("data-id");
 	   $("#" + activeTab).fadeIn(700);
 	});
+	

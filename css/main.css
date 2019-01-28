@@ -192,7 +192,6 @@ header a {
 #university-description {
   grid-row: 2 / -1;
   grid-column: 1 / 2;
-  margin-left: 120px;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -213,4 +212,23 @@ header a {
 
 .tab-entry {
   display: grid;
+  margin-left: 120px;
+}
+
+.row-wrap {
+  grid-column: 1 / 2;
+}
+.row-wrap h3 {
+  font-size: 27px;
+  line-height: 1.11;
+}
+
+.row-wrap p {
+  font-size: 16px;
+  line-height: 1.69;
+  opacity: 0.5;
+}
+
+.compare {
+  grid-column: 2 / -1;
 }
