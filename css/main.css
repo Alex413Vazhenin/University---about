@@ -239,3 +239,11 @@ header a {
   display: grid;
   grid-column: auto / span 2;
 }
+
+.info-box {
+  padding: 0;
+  grid-gap: 10px;
+  grid-column: auto / span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
