@@ -214,6 +214,7 @@ header a {
 
 .row-wrap {
   grid-template-columns: 8fr 2fr;
+  margin-top: 85px;
 }
 .row-wrap h3 {
   font-size: 27px;
@@ -232,7 +233,7 @@ header a {
 }
 .compare {
   grid-column: 2 / span 1;
-  margin-left: 160px;
+  margin: 90px 120px 0 160px;
 }
 
 #tab-courses {
@@ -245,5 +246,21 @@ header a {
   grid-gap: 10px;
   grid-column: auto / span 3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
 }
+
+.info-box h5 {
+  font-size: 12px;
+  opacity: 0.3;
+  line-height: 1.83;
+}
+
+.info-box p {
+  font-size: 16px;
+  line-height: 1.75;
+  opacity: 1;
+}
+
+.btn {
+
+  }
