@@ -156,14 +156,6 @@ header a {
   padding: 40px 0;
 }
 
-.contacts {
-  grid-column: 2 / -1;
-  height: 135px;
-  margin-left: 40%;
-  width: 221px;
-  opacity: 0.5;
-}
-
 .showcase {
   height: 378px;
   padding-left: 120px;
@@ -193,8 +185,9 @@ header a {
   Tabs - university description tab
 ---------------------*/
 #university-description {
+  display: grid;
+  grid-column: auto / span 2;
   margin-top: 72px;
-  grid-column: 1 / 2;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -219,10 +212,21 @@ header a {
   margin-left: 120px;
 }
 
+.row-about {
+  grid-template-columns: 6fr 2fr;
+}
+
+#contacts {
+  grid-column: 2 / span 1;
+  margin-left: 40%;
+  opacity: 0.5;
+}
+
 .row-wrap {
   grid-template-columns: 8fr 2fr;
   margin-top: 85px;
 }
+
 .row-wrap h3 {
   font-size: 27px;
   line-height: 1.11;
@@ -239,6 +243,7 @@ header a {
   display: grid;
   grid-column: auto / span 2;
 }
+
 .compare {
   grid-column: 2 / span 1;
   margin: 90px 120px 0 160px;
@@ -269,6 +274,22 @@ header a {
   opacity: 1;
 }
 
-.btn {
-
-  }
+.compare-btn {
+  color: #979797;
+  border: 1px solid #979797;
+  background: #fff;
+  opacity: 0.4;
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: .8em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+}
