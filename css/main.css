@@ -139,7 +139,6 @@ header a {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: minmax(200px, 1fr);
-  grid-template-rows: 400px 1fr;
   line-height: 1.69;
 }
 
@@ -170,14 +169,18 @@ header a {
   padding-left: 120px;
   padding-right: 30px;
   background-color: #fafafa;
-  grid-column: 1 / 2;
 }
 
-.university-navigation {
+.showcase h3 {
+  font-size: 40px;
+}
+
+.tabs {
+  padding-top: 30px;
   list-style: none;
   display: flex;
 }
-.university-navigation li {
+.tabs li {
   padding: 0.5rem 1rem 0 1rem;
 }
 
@@ -186,10 +189,12 @@ header a {
   grid-column: 2 / -1;
 }
 
-.university-description {
-  grid-row: 2 / -1;
+/*------------------
+  Tabs - university description tab
+---------------------*/
+#university-description {
+  margin-top: 72px;
   grid-column: 1 / 2;
-  margin-left: 120px;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -197,7 +202,8 @@ header a {
   letter-spacing: normal;
 }*
 
-.university-description h3{
+#university-description h3{
+  margin-top: 12px;
   height: 27px;
   opacity: 0.4;
   font-size: 16px;
@@ -207,3 +213,62 @@ header a {
   line-height: 1.69;
   letter-spacing: normal;
 }
+
+.tab-entry {
+  display: grid;
+  margin-left: 120px;
+}
+
+.row-wrap {
+  grid-template-columns: 8fr 2fr;
+  margin-top: 85px;
+}
+.row-wrap h3 {
+  font-size: 27px;
+  line-height: 1.11;
+  margin-bottom: 18px;
+}
+
+.row-wrap p {
+  font-size: 16px;
+  line-height: 1.69;
+  opacity: 0.5;
+}
+
+#tab-programs {
+  display: grid;
+  grid-column: auto / span 2;
+}
+.compare {
+  grid-column: 2 / span 1;
+  margin: 90px 120px 0 160px;
+}
+
+#tab-courses {
+  display: grid;
+  grid-column: auto / span 2;
+}
+
+.info-box {
+  padding: 0;
+  grid-gap: 10px;
+  grid-column: auto / span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
+}
+
+.info-box h5 {
+  font-size: 12px;
+  opacity: 0.3;
+  line-height: 1.83;
+}
+
+.info-box p {
+  font-size: 16px;
+  line-height: 1.75;
+  opacity: 1;
+}
+
+.btn {
+
+  }
